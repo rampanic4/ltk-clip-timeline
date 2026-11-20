@@ -1,0 +1,362 @@
+[
+  {
+    "name": "わしだい",
+    "team": "DD",
+    "tier": "MASTERS",
+    "login": "washidai_"
+  },
+  {
+    "name": "しゃるる",
+    "team": "DD",
+    "tier": "MASTERS",
+    "login": "syaruru3"
+  },
+  {
+    "name": "たぬき忍者",
+    "team": "DD",
+    "tier": "MASTERS",
+    "login": "tanukininja"
+  },
+  {
+    "name": "Day1",
+    "team": "DD",
+    "tier": "MASTERS",
+    "login": "day1lol"
+  },
+  {
+    "name": "hetel",
+    "team": "DD",
+    "tier": "MASTERS",
+    "login": "heteeel"
+  },
+  {
+    "name": "酒寄颯馬",
+    "team": "DD",
+    "tier": "CORE",
+    "login": "sakayorisoma"
+  },
+  {
+    "name": "きなこ",
+    "team": "DD",
+    "tier": "CORE",
+    "login": "kinapoppo"
+  },
+  {
+    "name": "スタンミじゃぱん",
+    "team": "DD",
+    "tier": "CORE",
+    "login": "sutanmi"
+  },
+  {
+    "name": "じゃすぱー",
+    "team": "DD",
+    "tier": "CORE",
+    "login": "jasper7se"
+  },
+  {
+    "name": "神楽めあ",
+    "team": "DD",
+    "tier": "CORE",
+    "login": "kagura0mea"
+  },
+  {
+    "name": "SHAKA",
+    "team": "DD",
+    "tier": "NEXT",
+    "login": "fps_shaka"
+  },
+  {
+    "name": "まざー３",
+    "team": "DD",
+    "tier": "NEXT",
+    "login": "mother3rd"
+  },
+  {
+    "name": "天ノ川ねる",
+    "team": "DD",
+    "tier": "NEXT",
+    "login": "amanogawaneru"
+  },
+  {
+    "name": "夢野あかり",
+    "team": "DD",
+    "tier": "NEXT",
+    "login": "akarindao"
+  },
+  {
+    "name": "白波らむね",
+    "team": "DD",
+    "tier": "NEXT",
+    "login": "ramuneshiranami"
+  },
+  {
+    "name": "Yutapon",
+    "team": "CC",
+    "tier": "MASTERS",
+    "login": "yutapongo"
+  },
+  {
+    "name": "Rainbrain",
+    "team": "CC",
+    "tier": "MASTERS",
+    "login": "rainbrain"
+  },
+  {
+    "name": "Ceros",
+    "team": "CC",
+    "tier": "MASTERS",
+    "login": "ceros127"
+  },
+  {
+    "name": "Yuhi",
+    "team": "CC",
+    "tier": "MASTERS",
+    "login": "yuhilolz"
+  },
+  {
+    "name": "Nemoh",
+    "team": "CC",
+    "tier": "MASTERS",
+    "login": "nemoh0918"
+  },
+  {
+    "name": "YUKIO",
+    "team": "CC",
+    "tier": "CORE",
+    "login": "yukiofps14"
+  },
+  {
+    "name": "k4sen",
+    "team": "CC",
+    "tier": "CORE",
+    "login": "k4sen"
+  },
+  {
+    "name": "葛葉",
+    "team": "CC",
+    "tier": "CORE",
+    "login": ""
+  },
+  {
+    "name": "龍巻ちせ",
+    "team": "CC",
+    "tier": "CORE",
+    "login": ""
+  },
+  {
+    "name": "昏昏アリア",
+    "team": "CC",
+    "tier": "CORE",
+    "login": "aria_konkon"
+  },
+  {
+    "name": "叶",
+    "team": "CC",
+    "tier": "NEXT",
+    "login": "kanae_2434"
+  },
+  {
+    "name": "ゆふな",
+    "team": "CC",
+    "tier": "NEXT",
+    "login": "yufuna"
+  },
+  {
+    "name": "空澄セナ",
+    "team": "CC",
+    "tier": "NEXT",
+    "login": "asumisena"
+  },
+  {
+    "name": "獅子堂あかり",
+    "team": "CC",
+    "tier": "NEXT",
+    "login": "shishidoakari"
+  },
+  {
+    "name": "鷹宮リオン",
+    "team": "CC",
+    "tier": "NEXT",
+    "login": "takamiyarion"
+  },
+  {
+    "name": "らいじん",
+    "team": "IT",
+    "tier": "MASTERS",
+    "login": "alfrea"
+  },
+  {
+    "name": "ゆにか",
+    "team": "IT",
+    "tier": "MASTERS",
+    "login": "yunika1"
+  },
+  {
+    "name": "Eugeo",
+    "team": "IT",
+    "tier": "MASTERS",
+    "login": "eugeoja"
+  },
+  {
+    "name": "Zerost",
+    "team": "IT",
+    "tier": "MASTERS",
+    "login": "zerost_s"
+  },
+  {
+    "name": "Enty",
+    "team": "IT",
+    "tier": "MASTERS",
+    "login": "entych"
+  },
+  {
+    "name": "mittiii",
+    "team": "IT",
+    "tier": "CORE",
+    "login": "im_mittiii"
+  },
+  {
+    "name": "AlphaAzur",
+    "team": "IT",
+    "tier": "CORE",
+    "login": "alphaazur"
+  },
+  {
+    "name": "たかやスペシャル",
+    "team": "IT",
+    "tier": "CORE",
+    "login": "takayaspecial"
+  },
+  {
+    "name": "ごんかね",
+    "team": "IT",
+    "tier": "CORE",
+    "login": "kanegon1"
+  },
+  {
+    "name": "レグルシュ・ライオンハート",
+    "team": "IT",
+    "tier": "CORE",
+    "login": "reglushlionheart"
+  },
+  {
+    "name": "橘ひなの",
+    "team": "IT",
+    "tier": "NEXT",
+    "login": "hinanotachiba7"
+  },
+  {
+    "name": "ありけん",
+    "team": "IT",
+    "tier": "NEXT",
+    "login": "arikendebu"
+  },
+  {
+    "name": "まいたけ",
+    "team": "IT",
+    "tier": "NEXT",
+    "login": "kinotake00"
+  },
+  {
+    "name": "天帝フォルテ",
+    "team": "IT",
+    "tier": "NEXT",
+    "login": "tentei_forte"
+  },
+  {
+    "name": "白那しずく",
+    "team": "IT",
+    "tier": "NEXT",
+    "login": "shirona_shizuku"
+  },
+  {
+    "name": "apaMEN",
+    "team": "LR",
+    "tier": "MASTERS",
+    "login": "apamenlol"
+  },
+  {
+    "name": "ねすてぃー",
+    "team": "LR",
+    "tier": "MASTERS",
+    "login": "nesu_kun"
+  },
+  {
+    "name": "Recap",
+    "team": "LR",
+    "tier": "MASTERS",
+    "login": "recaplol1"
+  },
+  {
+    "name": "ハレっち",
+    "team": "LR",
+    "tier": "MASTERS",
+    "login": "haretti"
+  },
+  {
+    "name": "てぃんとん",
+    "team": "LR",
+    "tier": "MASTERS",
+    "login": "thintonlol"
+  },
+  {
+    "name": "焼きパン",
+    "team": "LR",
+    "tier": "CORE",
+    "login": "varvalian"
+  },
+  {
+    "name": "Killin9Hit",
+    "team": "LR",
+    "tier": "CORE",
+    "login": "killin9hit"
+  },
+  {
+    "name": "乾伸一郎",
+    "team": "LR",
+    "tier": "CORE",
+    "login": "ninja_inui"
+  },
+  {
+    "name": "大御所にゅん子",
+    "team": "LR",
+    "tier": "CORE",
+    "login": "nyunkoro"
+  },
+  {
+    "name": "千燈ゆうひ",
+    "team": "LR",
+    "tier": "CORE",
+    "login": "sendo_yuuhi"
+  },
+  {
+    "name": "狐白うる",
+    "team": "LR",
+    "tier": "NEXT",
+    "login": "kohaku_uru"
+  },
+  {
+    "name": "アステル・レダ",
+    "team": "LR",
+    "tier": "NEXT",
+    "login": ""
+  },
+  {
+    "name": "春茶",
+    "team": "LR",
+    "tier": "NEXT",
+    "login": "ninzintabemasu"
+  },
+  {
+    "name": "なぎさっち",
+    "team": "LR",
+    "tier": "NEXT",
+    "login": "nagisatty"
+  },
+  {
+    "name": "No.1005",
+    "team": "LR",
+    "tier": "NEXT",
+    "login": "urs_toko"
+  }
+]

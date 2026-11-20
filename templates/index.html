@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LTK Clip Timeline</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-mark">LTK</span><div><strong>CLIP TIMELINE</strong><small>SEASON: FINALE · 2026</small></div></div>
+  <div class="top-actions"><span class="clip-total">保存済み <b id="clipCount">{{ clip_count }}</b> clips</span><button id="syncBtn" class="primary">Twitchから同期</button></div>
+</header>
+<main class="layout">
+  <aside class="sidebar">
+    <div class="side-heading">FILTERS <button id="clearBtn" class="text-button">クリア</button></div>
+    <label class="field-label" for="searchInput">キーワード</label><input id="searchInput" class="search" placeholder="クリップ名・配信者を検索">
+    <label class="field-label" for="streamerSelect">配信者</label><select id="streamerSelect" class="select"><option value="">すべての配信者</option></select>
+    <div class="filter-title">TEAM</div>
+    <div class="team-list">
+      <button class="team-filter active" data-team="">すべて <span>ALL</span></button>
+      <button class="team-filter" data-team="DD"><i class="dot dd"></i> DAHLIA DIADEM <span>DD</span></button>
+      <button class="team-filter" data-team="CC"><i class="dot cc"></i> CAMELLIA CROWN <span>CC</span></button>
+      <button class="team-filter" data-team="IT"><i class="dot it"></i> IRIS TIARA <span>IT</span></button>
+      <button class="team-filter" data-team="LR"><i class="dot lr"></i> LAUREL REGALIA <span>LR</span></button>
+    </div>
+    <div class="filter-title roster-title">STREAMERS <button id="rosterToggle" class="text-button">ログインID設定</button></div>
+    <div id="rosterPanel" class="roster-panel hidden"><p>TwitchチャンネルのログインID（URLの twitch.tv/ の後ろ）を入力してください。</p><div id="rosterEditor"></div><button id="saveRoster" class="secondary full">設定を保存</button></div>
+    <div class="sidebar-note">※ クリップ取得にはTwitch DeveloperのClient ID / Client Secretが必要です。</div>
+  </aside>
+  <section class="content">
+    <div class="page-heading"><div><div class="eyebrow">LEAGUE THE K4SEN</div><h1>クリップタイムライン</h1><p>カレンダーから日付を選択。LoLクリップを配信時刻順に表示</p><p class="game-filter-note">GAME FILTER：League of Legends</p></div></div>
+    <section class="calendar-panel">
+      <div class="calendar-head"><button id="prevMonth" class="secondary">‹</button><h2 id="monthTitle">年月</h2><button id="nextMonth" class="secondary">›</button><button id="allDates" class="text-button">日付選択解除</button></div>
+      <div class="calendar-grid calendar-week"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
+      <div id="calendarDays" class="calendar-grid"></div>
+    </section>
+    <div class="summary-row"><div><span class="summary-number" id="visibleCount">0</span><span class="summary-label">CLIPS</span></div><div class="toolbar"><label for="sortSelect">並び順</label><select id="sortSelect" class="select"><option value="oldest">配信時刻：古い順</option><option value="views">再生数：多い順</option></select></div></div>
+    <div id="selectedDateLabel" class="selected-date-label">すべての日付</div>
+    <div id="timeline" class="timeline"><div class="empty-state"><h2>クリップはまだありません</h2><p>配信者を登録して「Twitchから同期」を押してください。</p></div></div>
+    <div class="load-more-wrap"><button id="loadMore" class="secondary hidden">もっと見る</button></div>
+  </section>
+</main>
+<div id="playerModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Twitchクリッププレイヤー"><div class="modal-backdrop" id="modalBackdrop"></div><div class="modal-content"><button id="closePlayer" class="modal-close">×</button><div id="playerFrame"></div></div></div>
+<div id="syncReport" class="report-modal hidden"><div class="report-card"><button id="closeReport" class="modal-close">×</button><h2>同期結果</h2><div id="reportBody"></div></div></div>
+<div id="toast" class="toast"></div>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body></html>
